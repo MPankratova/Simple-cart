@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;   
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.header {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.headerInside {
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid #ececec;
+}
+
+.buttonCart {
+    margin: 30px;
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    border-radius: 3px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #0c0c0c;
+}
+
+.buttonCart i {
+    position: relative;
+    left: 10px;
+}
+
+.buttonCart:hover {
+    cursor: pointer;
+}
+
+.itemsCart {
+        border: 1px solid #ececec;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.item {
+    width: 264px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.priceItem, .nameItem {
+    margin: 5px;
+    font-weight: 300;
+    color: #0c0c0c;
+}
+
+.imgItem {
+    width: 263px;
+    height: 280px;
+}
+
+.imgItem img {
+    object-fit: contain;
+}
+
+
+.btnBuyItem {
+    margin: 5px;
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    border-radius: 3px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #0c0c0c;
+}
+
+.btnBuyItem:hover {
+    cursor: pointer;
+}
+
+.productRemoveBtn:hover {
+    cursor: pointer;
+}
+
+.cart {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #ececec;
+    margin: 30px auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+tbody th, td{
+    text-align: center;
+}

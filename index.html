@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/8f2de3d418.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container headerInside">
+            <i class="fas fa-shopping-cart"></i>
+            <button class="buttonCart">
+                Корзина <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+    </header>
+    <div class="cart container">
+        <table>
+            <caption>Корзина</caption>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2" scope="row">Итого:</th>
+                    <td colspan="1">
+                        <span class="total">0</span>
+                        <i class="fas fa-ruble-sign"></i>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="itemsCart container ">
+        <div class="item">
+            <div class="nameItem">Товар 1</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1657.jpg" alt="">
+            </div>
+            <div class="priceItem">100$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="1" data-price="100" data-name="Товар 1">
+                    Купить
+                </button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="nameItem">Товар 2</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1877.jpg" alt="">
+            </div>
+            <div class="priceItem">200$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="2" data-price="200" data-name="Товар 2">
+                    Купить
+                </button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="nameItem">Товар 3</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1907.jpg" alt="">
+            </div>
+            <div class="priceItem">300$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="3" data-price="300" data-name="Товар 3">
+                    Купить
+                </button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="nameItem">Товар 4</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1937.jpg" alt="">
+            </div>
+            <div class="priceItem">400$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="4" data-price="400" data-name="Товар 4">
+                    Купить
+                </button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="nameItem">Товар 5</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1967.jpg" alt="">
+            </div>
+            <div class="priceItem">500$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="5" data-price="500" data-name="Товар 5">
+                    Купить
+                </button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="nameItem">Товар 6</div>
+            <div class="imgItem">
+                <img src="styles/images/image_placeholder_1997.jpg" alt="">
+            </div>
+            <div class="priceItem">600$</div>
+            <div class="buyItem">
+                <button class="btnBuyItem" data-id="6" data-price="600" data-name="Товар 6">
+                    Купить
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
